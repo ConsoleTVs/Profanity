@@ -1,4 +1,4 @@
-<p align="center"><a href="https://erik.cat/projects/Charts"><img height="250" src="http://i.imgur.com/zylVNhI.png"></a></p>
+<p align="center"><h1>Profanity</h1></p>
 
 <p align="center">
 <a href="https://styleci.io/repos/92664523"><img src="https://styleci.io/repos/92664523/shield?branch=master&style=flat" alt="StyleCI Status"></a>
