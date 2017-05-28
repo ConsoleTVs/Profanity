@@ -11,8 +11,8 @@
 
 namespace ConsoleTVs\Profanity\Facades;
 
-use Illuminate\Support\Facades\Facade;
 use ConsoleTVs\Profanity\Builder;
+use Illuminate\Support\Facades\Facade;
 
 /**
  * This is the profanity facade class.

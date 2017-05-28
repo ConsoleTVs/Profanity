@@ -26,19 +26,21 @@ class Blocker
      * Setup the Profanity filter.
      *
      * @param string $text
+     *
      * @return void
      */
     public function __construct($text, $blocker)
     {
         $this->text = $text;
         $this->blocker = $blocker;
-        $this->dictionary = json_decode(file_get_contents(__DIR__ . '/../Dictionaries/Default.json'), true);
+        $this->dictionary = json_decode(file_get_contents(__DIR__.'/../Dictionaries/Default.json'), true);
     }
 
     /**
      * Set the text to filter.
      *
      * @param string $text
+     *
      * @return self
      */
     public function text($text)
@@ -52,6 +54,7 @@ class Blocker
      * Set the blocker string (string that will replace bad words).
      *
      * @param string $blocker
+     *
      * @return self
      */
     public function blocker($blocker)
@@ -65,6 +68,7 @@ class Blocker
      * Set the blocker dictionary (string = path to json, array = dictionary) (bad words).
      *
      * @param mixed $dictionary
+     *
      * @return self
      */
     public function dictionary($dictionary)
@@ -96,7 +100,7 @@ class Blocker
         })->map(function ($value) {
             return [
                 'language' => $value['language'],
-                'word' => strtolower($value['word'])
+                'word'     => strtolower($value['word']),
             ];
         })->toArray();
     }
