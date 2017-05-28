@@ -28,9 +28,8 @@ class Builder
      *
      * @return Chart
      */
-    public static function blocker($text, $blocker = "****")
+    public static function blocker($text, $blocker = '****')
     {
         return new Blocker($text, $blocker);
     }
-
 }
