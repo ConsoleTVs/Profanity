@@ -1,0 +1,21 @@
+{
+    "name": "consoletvs/profanity",
+    "description": "PHP library to block bad words in a string",
+    "type": "library",
+    "require": {
+        "illuminate/support": "^5.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Erik Campobadal",
+            "email": "ConsoleTVs@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ConsoleTVs\\Profanity\\": "."
+        }
+    },
+    "minimum-stability": "dev"
+}
