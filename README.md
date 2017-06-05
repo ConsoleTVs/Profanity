@@ -11,7 +11,7 @@
 ## What is Profanity?
 
 Profanity is a PHP library that allows blocking bad words out of a given string. It currently
-blocks more than 50.000 words in different languages. It's very easy to use and can filter a
+blocks more than 2.555 words in different languages. It's very easy to use and can filter a
 100 chars string in about 0.0021 seconds!
 
 ## Sample Filter
