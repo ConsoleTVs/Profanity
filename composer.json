@@ -17,5 +17,15 @@
             "ConsoleTVs\\Profanity\\": "."
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ConsoleTVs\\Profanity\\ProfanityServiceProvider"
+            ],
+            "aliases": {
+                "Profanity": "ConsoleTVs\\Profanity\\Facades\\Profanity"
+            }
+        }
+    },
     "minimum-stability": "dev"
 }
