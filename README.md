@@ -104,15 +104,15 @@ class HomeController extends Controller
 -   strict(true/false)
 
     Set the strict mode to enabled or disabled. Strict mode replaces the string even if it's not a word:
-    assets => (tagged as ass) => ****
+    assets => (tagged as ass) => ```****```
     Disable to ensure normal usage.
     Defaults to false.
 
 -   strictClean(true/false)
 
     Set the strict clean mode to enabled or disabled. Strict clean mode ensures the first blocked character is repeated for each bad word character.
-    If so, a bad word of length = 3 (ass) will result in a ***, instead of the blocker (defaults to ****).
-    If the blocker is -**- then the same example as above would produce --- as strict clean true and -**- as false.
+    If so, a bad word of length = 3 (ass) will result in a ```***```, instead of the blocker (defaults to ```****```).
+    If the blocker is ```-**-``` then the same example as above would produce ```---``` as strict clean true and ```-**-``` as false.
     Defaults to true.
 
 -   clean()
