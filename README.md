@@ -19,7 +19,7 @@ blocks more than 2.555 words in different languages. It's very easy to use and c
 This example is a simple string that is going to be filtered using this library.
 
 ```php
-$clean_word = Profanity::blocker('My cool string bitch')->filter()
+$clean_words = Profanity::blocker('My cool string bitch')->filter()
 
 // My cool string ****
 ```
@@ -55,8 +55,8 @@ Alias (optional):
 #### PHP
 
 ```php
-$word = 'My bad word bitch';
-$clean_word = \ConsoleTVs\Profanity\Builder::blocker($word)->filter();
+$words = 'My bad word bitch';
+$clean_words = \ConsoleTVs\Profanity\Builder::blocker($words)->filter();
 // My bad word ****
 ```
 
@@ -81,9 +81,9 @@ class HomeController extends Controller
      */
     public function test()
     {
-        $word = 'My bad word bitch';
+        $words = 'My bad word bitch';
 
-        return Profanity::blocker($word)->filter();
+        return Profanity::blocker($words)->filter();
         // My bad word ****
     }
 }
@@ -100,6 +100,20 @@ class HomeController extends Controller
     *note:* The blocker defaults to ```****```
 
 #### Class Methods
+
+-   strict(true/false)
+
+    Set the strict mode to enabled or disabled. Strict mode replaces the string even if it's not a word:
+    assets => (tagged as ass) => ****
+    Disable to ensure normal usage.
+    Defaults to false.
+
+-   strictClean(true/false)
+
+    Set the strict clean mode to enabled or disabled. Strict clean mode ensures the first blocked character is repeated for each bad word character.
+    If so, a bad word of length = 3 (ass) will result in a ***, instead of the blocker (defaults to ****).
+    If the blocker is -**- then the same example as above would produce --- as strict clean true and -**- as false.
+    Defaults to true.
 
 -   clean()
 

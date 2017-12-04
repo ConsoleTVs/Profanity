@@ -21,6 +21,8 @@ class Blocker
     public $dictionary;
     public $blocker;
     public $text;
+    public $strict = false;
+    public $strictClean = true;
 
     /**
      * Setup the Profanity filter.
@@ -46,6 +48,33 @@ class Blocker
     public function text($text)
     {
         $this->text = $text;
+
+        return $this;
+    }
+
+    /**
+     * Set the strict mode.
+     *
+     * @param bool $strict
+     *
+     * @return self
+     */
+    public function strict($strict)
+    {
+        $this->strict = $strict;
+
+        return $this;
+    }
+
+    /**
+     * Set the strict clean mode.
+     *
+     * @param  bool $strict
+     * @return self
+     */
+    public function strictClean($strict)
+    {
+        $this->strictClean = $strict;
 
         return $this;
     }
@@ -95,12 +124,17 @@ class Blocker
      */
     public function badWords()
     {
-        return collect($this->dictionary)->filter(function ($value) {
-            return str_contains(strtolower($this->text), strtolower($value['word']));
+        $words = explode(' ', $this->text);
+
+        return collect($this->dictionary)->filter(function ($value) use ($words) {
+            if ($this->strict) {
+                return str_contains(strtolower($this->text), strtolower($value['word']));
+            }
+            return in_array($value['word'], $words);
         })->map(function ($value) {
             return [
                 'language' => $value['language'],
-                'word'     => strtolower($value['word']),
+                'word' => strtolower($value['word']),
             ];
         })->toArray();
     }
@@ -115,7 +149,26 @@ class Blocker
         $bad_words = collect($this->badWords())->pluck('word')->toArray();
 
         return collect(explode(' ', $this->text))->map(function ($value) use ($bad_words) {
-            return (str_contains(strtolower($value), $bad_words)) ? $this->blocker : $value;
+            if ($this->strict) {
+                return (str_contains(strtolower($value), $bad_words)) ? $this->blockWord($value) : $value;
+            }
+
+            return in_array($value, $bad_words) ? $this->blockWord($value) : $value;
         })->implode(' ');
+    }
+
+    /**
+     * Returns the blocked word.
+     *
+     * @param  string $word
+     * @return string
+     */
+    private function blockWord($word)
+    {
+        if ($this->strictClean) {
+            return str_repeat($this->blocker[0], strlen($word));
+        }
+
+        return $this->blocker;
     }
 }
