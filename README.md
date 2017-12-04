@@ -21,7 +21,7 @@ This example is a simple string that is going to be filtered using this library.
 ```php
 $clean_words = Profanity::blocker('My cool string bitch')->filter()
 
-// My cool string ****
+// My cool string *****
 ```
 
 ## Documentation
@@ -57,7 +57,7 @@ Alias (optional):
 ```php
 $words = 'My bad word bitch';
 $clean_words = \ConsoleTVs\Profanity\Builder::blocker($words)->filter();
-// My bad word ****
+// My bad word *****
 ```
 
 #### Laravel
@@ -84,7 +84,7 @@ class HomeController extends Controller
         $words = 'My bad word bitch';
 
         return Profanity::blocker($words)->filter();
-        // My bad word ****
+        // My bad word *****
     }
 }
 ```
