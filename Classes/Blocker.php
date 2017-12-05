@@ -130,7 +130,7 @@ class Blocker
             if ($this->strict) {
                 return str_contains(strtolower($this->text), strtolower($value['word']));
             }
-            return in_array($value['word'], $words);
+            return in_array(strtolower($value['word']), $words);
         })->map(function ($value) {
             return [
                 'language' => $value['language'],
@@ -153,7 +153,7 @@ class Blocker
                 return (str_contains(strtolower($value), $bad_words)) ? $this->blockWord($value) : $value;
             }
 
-            return in_array($value, $bad_words) ? $this->blockWord($value) : $value;
+            return in_array(strtolower($value), $bad_words) ? $this->blockWord($value) : $value;
         })->implode(' ');
     }
 
