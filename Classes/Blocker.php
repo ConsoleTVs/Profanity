@@ -69,7 +69,8 @@ class Blocker
     /**
      * Set the strict clean mode.
      *
-     * @param  bool $strict
+     * @param bool $strict
+     *
      * @return self
      */
     public function strictClean($strict)
@@ -130,11 +131,12 @@ class Blocker
             if ($this->strict) {
                 return str_contains(strtolower($this->text), strtolower($value['word']));
             }
+
             return in_array(strtolower($value['word']), $words);
         })->map(function ($value) {
             return [
                 'language' => $value['language'],
-                'word' => strtolower($value['word']),
+                'word'     => strtolower($value['word']),
             ];
         })->toArray();
     }
@@ -160,7 +162,8 @@ class Blocker
     /**
      * Returns the blocked word.
      *
-     * @param  string $word
+     * @param string $word
+     *
      * @return string
      */
     private function blockWord($word)
