@@ -152,10 +152,10 @@ class Blocker
 
         return collect(explode(' ', $this->text))->map(function ($value) use ($bad_words) {
             if ($this->strict) {
-                return (str_contains(strtolower($value), $bad_words)) ? $this->blockWord($value) : $value;
+                return (str_contains(mb_strtolower($value), $bad_words)) ? $this->blockWord($value) : $value;
             }
 
-            return in_array(strtolower($value), $bad_words) ? $this->blockWord($value) : $value;
+            return in_array(mb_strtolower($value), $bad_words) ? $this->blockWord($value) : $value;
         })->implode(' ');
     }
 
