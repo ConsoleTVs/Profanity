@@ -129,14 +129,14 @@ class Blocker
 
         return collect($this->dictionary)->filter(function ($value) use ($words) {
             if ($this->strict) {
-                return str_contains(strtolower($this->text), strtolower($value['word']));
+                return str_contains(mb_strtolower($this->text), mb_strtolower($value['word']));
             }
-
-            return in_array(strtolower($value['word']), $words);
+            $words = array_map('mb_strtolower',$words);
+            return in_array(mb_strtolower($value['word']), $words);
         })->map(function ($value) {
             return [
                 'language' => $value['language'],
-                'word'     => strtolower($value['word']),
+                'word' => mb_strtolower($value['word']),
             ];
         })->toArray();
     }
