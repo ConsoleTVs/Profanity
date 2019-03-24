@@ -131,7 +131,7 @@ class Blocker
                 return preg_match('/'.$value['word'].'/iu', $this->text, $matches, PREG_UNMATCHED_AS_NULL);
             }
             $pattern = "/\b{$value['word']}\b/iu";
-            
+
             return preg_match($pattern, $this->text, $matches, PREG_UNMATCHED_AS_NULL);
         })->map(function ($value) {
             return [
