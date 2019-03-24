@@ -126,17 +126,17 @@ class Blocker
     public function badWords()
     {
         return collect($this->dictionary)->filter(function ($value) {
-            $matches=[];
+            $matches = [];
             if ($this->strict) {
-                return preg_match("/" . $value['word'] . "/iu", $this->text, $matches, PREG_UNMATCHED_AS_NULL);
+                return preg_match('/'.$value['word'].'/iu', $this->text, $matches, PREG_UNMATCHED_AS_NULL);
             }
             $pattern = "/\b{$value['word']}\b/iu";
+            
             return preg_match($pattern, $this->text, $matches, PREG_UNMATCHED_AS_NULL);
-
         })->map(function ($value) {
             return [
                 'language' => $value['language'],
-                'word' => $value['word'],
+                'word'     => $value['word'],
             ];
         })->toArray();
     }
@@ -152,9 +152,9 @@ class Blocker
         $text = $this->text;
         foreach ($bad_words as $word) {
             if ($this->strict) {
-                $text = preg_replace("/" . $word . "/iu", $this->blockWord($word), $text);
+                $text = preg_replace('/'.$word.'/iu', $this->blockWord($word), $text);
             } else {
-                $text = preg_replace("/\b" . $word . "\b/iu", $this->blockWord($word), $text);
+                $text = preg_replace("/\b".$word."\b/iu", $this->blockWord($word), $text);
             }
         }
         return $text;
