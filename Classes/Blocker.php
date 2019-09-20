@@ -125,18 +125,18 @@ class Blocker
      */
     public function badWords()
     {
-        $words = explode(' ', $this->text);
-
-        return collect($this->dictionary)->filter(function ($value) use ($words) {
+        return collect($this->dictionary)->filter(function ($value) {
+            $matches = [];
             if ($this->strict) {
-                return str_contains(strtolower($this->text), strtolower($value['word']));
+                return preg_match('/'.$value['word'].'/iu', $this->text, $matches, PREG_UNMATCHED_AS_NULL);
             }
+            $pattern = "/\b{$value['word']}\b/iu";
 
-            return in_array(strtolower($value['word']), $words);
+            return preg_match($pattern, $this->text, $matches, PREG_UNMATCHED_AS_NULL);
         })->map(function ($value) {
             return [
                 'language' => $value['language'],
-                'word'     => strtolower($value['word']),
+                'word'     => $value['word'],
             ];
         })->toArray();
     }
@@ -149,14 +149,15 @@ class Blocker
     public function filter()
     {
         $bad_words = collect($this->badWords())->pluck('word')->toArray();
-
-        return collect(explode(' ', $this->text))->map(function ($value) use ($bad_words) {
+        $text = $this->text;
+        foreach ($bad_words as $word) {
             if ($this->strict) {
-                return (str_contains(strtolower($value), $bad_words)) ? $this->blockWord($value) : $value;
+                $text = preg_replace('/'.$word.'/iu', $this->blockWord($word), $text);
+            } else {
+                $text = preg_replace("/\b".$word."\b/iu", $this->blockWord($word), $text);
             }
-
-            return in_array(strtolower($value), $bad_words) ? $this->blockWord($value) : $value;
-        })->implode(' ');
+        }
+        return $text;
     }
 
     /**
