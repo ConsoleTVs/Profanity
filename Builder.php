@@ -26,7 +26,7 @@ class Builder
      * @param string $type
      * @param string $library
      *
-     * @return Chart
+     * @return Blocker
      */
     public static function blocker($text, $blocker = '****')
     {
