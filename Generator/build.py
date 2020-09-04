@@ -12,7 +12,10 @@ for file in files:
         f = open(file, 'r', encoding="utf8")
         print("Generating for language: " + str(file))
         for line in f:
-            d = {'language': file, 'word': line.rstrip()}
+            if file == 'fa' or file=='ar':
+                d= {'language':file,'word':"\u0640*".join(line.rstrip())}
+            else:
+                d = {'language': file, 'word': line.rstrip()}
             dictionary.append(d)
             wc += 1
 
