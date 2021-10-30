@@ -6,9 +6,10 @@ files = glob.glob("*")
 dictionary = []
 wc = 0
 output_file = 'output.json'
+build_file = 'build.py'
 
 for file in files:
-    if file != __file__ and file != output_file:
+    if file != __file__ and file != output_file and file != build_file:
         f = open(file, 'r', encoding="utf8")
         print("Generating for language: " + str(file))
         for line in f:
