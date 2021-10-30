@@ -7593,7 +7593,15 @@
     },
     {
         "language": "ru",
+        "word": "dolboeb"
+    },
+    {
+        "language": "ru",
         "word": "dolboy'eb"
+    },
+    {
+        "language": "ru",
+        "word": "dolboyob"
     },
     {
         "language": "ru",
@@ -7609,7 +7617,23 @@
     },
     {
         "language": "ru",
-        "word": "gol"
+        "word": "ebalom schelkat"
+    },
+    {
+        "language": "ru",
+        "word": "hu'evo"
+    },
+    {
+        "language": "ru",
+        "word": "huevo"
+    },
+    {
+        "language": "ru",
+        "word": "ku'evo"
+    },
+    {
+        "language": "ru",
+        "word": "kuevo"
     },
     {
         "language": "ru",
@@ -7618,6 +7642,30 @@
     {
         "language": "ru",
         "word": "mudak"
+    },
+    {
+        "language": "ru",
+        "word": "mudobl'adsksya"
+    },
+    {
+        "language": "ru",
+        "word": "mudoblyadsksya"
+    },
+    {
+        "language": "ru",
+        "word": "nasrat"
+    },
+    {
+        "language": "ru",
+        "word": "nasrat'"
+    },
+    {
+        "language": "ru",
+        "word": "obosrat"
+    },
+    {
+        "language": "ru",
+        "word": "obosrat'"
     },
     {
         "language": "ru",
@@ -7637,6 +7685,10 @@
     },
     {
         "language": "ru",
+        "word": "otebis"
+    },
+    {
+        "language": "ru",
         "word": "otmudohat"
     },
     {
@@ -7646,6 +7698,10 @@
     {
         "language": "ru",
         "word": "otsosi"
+    },
+    {
+        "language": "ru",
+        "word": "otyebis"
     },
     {
         "language": "ru",
@@ -7709,11 +7765,59 @@
     },
     {
         "language": "ru",
+        "word": "pizdet"
+    },
+    {
+        "language": "ru",
         "word": "pizdetc"
     },
     {
         "language": "ru",
-        "word": "pizdoi nakryt'sja"
+        "word": "pizdez"
+    },
+    {
+        "language": "ru",
+        "word": "pizdoi"
+    },
+    {
+        "language": "ru",
+        "word": "pizdopro'ebina"
+    },
+    {
+        "language": "ru",
+        "word": "pizdoproebina"
+    },
+    {
+        "language": "ru",
+        "word": "pizdoproyebina"
+    },
+    {
+        "language": "ru",
+        "word": "pizdoproyob"
+    },
+    {
+        "language": "ru",
+        "word": "pizdoproyobina"
+    },
+    {
+        "language": "ru",
+        "word": "pizdu"
+    },
+    {
+        "language": "ru",
+        "word": "pizdulina"
+    },
+    {
+        "language": "ru",
+        "word": "pizdy"
+    },
+    {
+        "language": "ru",
+        "word": "pizdyulina"
+    },
+    {
+        "language": "ru",
+        "word": "po huy"
     },
     {
         "language": "ru",
@@ -7725,23 +7829,23 @@
     },
     {
         "language": "ru",
-        "word": "po'iti posrat"
-    },
-    {
-        "language": "ru",
-        "word": "podi ku'evo"
-    },
-    {
-        "language": "ru",
         "word": "poeben"
     },
     {
         "language": "ru",
-        "word": "poluchit pizdy"
+        "word": "pososi moyu konfetku"
     },
     {
         "language": "ru",
-        "word": "pososi moyu konfetku"
+        "word": "posrat"
+    },
+    {
+        "language": "ru",
+        "word": "posrat'"
+    },
+    {
+        "language": "ru",
+        "word": "poyimat na konchik"
     },
     {
         "language": "ru",
@@ -7753,7 +7857,7 @@
     },
     {
         "language": "ru",
-        "word": "promudobl'adsksya pizdopro'ebina"
+        "word": "promudobl'adsksya"
     },
     {
         "language": "ru",
@@ -7781,7 +7885,19 @@
     },
     {
         "language": "ru",
+        "word": "razyebuy"
+    },
+    {
+        "language": "ru",
+        "word": "razyoba"
+    },
+    {
+        "language": "ru",
         "word": "s'ebat'sya"
+    },
+    {
+        "language": "ru",
+        "word": "sebatsya"
     },
     {
         "language": "ru",
@@ -7789,11 +7905,27 @@
     },
     {
         "language": "ru",
+        "word": "shluha"
+    },
+    {
+        "language": "ru",
+        "word": "shlukha"
+    },
+    {
+        "language": "ru",
         "word": "sosi"
     },
     {
         "language": "ru",
-        "word": "styervo"
+        "word": "srat"
+    },
+    {
+        "language": "ru",
+        "word": "srat'"
+    },
+    {
+        "language": "ru",
+        "word": "sterva"
     },
     {
         "language": "ru",
@@ -7805,11 +7937,15 @@
     },
     {
         "language": "ru",
-        "word": "svodit posrat"
+        "word": "svoloch"
     },
     {
         "language": "ru",
-        "word": "svoloch"
+        "word": "trahat'sya"
+    },
+    {
+        "language": "ru",
+        "word": "trahatsya"
     },
     {
         "language": "ru",
@@ -7817,7 +7953,11 @@
     },
     {
         "language": "ru",
-        "word": "trimandoblydskiy pizdoproyob"
+        "word": "trakhatsya"
+    },
+    {
+        "language": "ru",
+        "word": "trimandoblydskiy"
     },
     {
         "language": "ru",
@@ -7829,19 +7969,19 @@
     },
     {
         "language": "ru",
-        "word": "uboy"
+        "word": "ubludok"
     },
     {
         "language": "ru",
-        "word": "v pizdu"
+        "word": "ublyudok"
     },
     {
         "language": "ru",
-        "word": "vafl'a"
+        "word": "uebitsche"
     },
     {
         "language": "ru",
-        "word": "vafli lovit"
+        "word": "uebitshe"
     },
     {
         "language": "ru",
@@ -7861,7 +8001,19 @@
     },
     {
         "language": "ru",
+        "word": "za'ibat"
+    },
+    {
+        "language": "ru",
+        "word": "zaebat"
+    },
+    {
+        "language": "ru",
         "word": "zaebis"
+    },
+    {
+        "language": "ru",
+        "word": "zaibat"
     },
     {
         "language": "ru",
@@ -7873,7 +8025,23 @@
     },
     {
         "language": "ru",
+        "word": "zalupatsa"
+    },
+    {
+        "language": "ru",
+        "word": "zalupatsya"
+    },
+    {
+        "language": "ru",
+        "word": "zasranec"
+    },
+    {
+        "language": "ru",
         "word": "zasranetc"
+    },
+    {
+        "language": "ru",
+        "word": "zasranez"
     },
     {
         "language": "ru",
@@ -7885,7 +8053,27 @@
     },
     {
         "language": "ru",
+        "word": "zloebuchy"
+    },
+    {
+        "language": "ru",
+        "word": "\u0430\u043f\u0435\u0437\u0434\u043e\u043b"
+    },
+    {
+        "language": "ru",
+        "word": "\u0430\u043f\u0435\u0441\u0434\u043e\u043b"
+    },
+    {
+        "language": "ru",
+        "word": "\u0430\u0442\u043c\u0443\u0434\u043e\u0445\u0430\u0442\u044c"
+    },
+    {
+        "language": "ru",
         "word": "\u0430\u0444\u0438\u0433\u0435\u0442\u044c"
+    },
+    {
+        "language": "ru",
+        "word": "\u0430\u0445\u0440\u0435\u043d\u0435\u0442\u044c"
     },
     {
         "language": "ru",
@@ -7933,10 +8121,6 @@
     },
     {
         "language": "ru",
-        "word": "\u0432 \u043f\u0438\u0437\u0434\u0443"
-    },
-    {
-        "language": "ru",
         "word": "\u0432\u0441\u0442\u0430\u0442\u044c \u0440\u0430\u043a\u043e\u043c"
     },
     {
@@ -7973,6 +8157,10 @@
     },
     {
         "language": "ru",
+        "word": "\u0435\u0431 \u0432\u0430\u0448\u0443 \u043c\u0430\u0442\u044c"
+    },
+    {
+        "language": "ru",
         "word": "\u0435\u0431 \u0442\u0432\u043e\u044e \u043c\u0430\u0442\u044c"
     },
     {
@@ -7993,6 +8181,10 @@
     },
     {
         "language": "ru",
+        "word": "\u0435\u0431\u0430\u0442\u044c\u0441\u044f"
+    },
+    {
+        "language": "ru",
         "word": "\u0435\u0431\u043b\u043e"
     },
     {
@@ -8002,6 +8194,22 @@
     {
         "language": "ru",
         "word": "\u0435\u0431\u0451\u0442\u0441\u044f"
+    },
+    {
+        "language": "ru",
+        "word": "\u0435\u0434\u0440\u0438\u0442\u044c \u043a\u043e\u043b\u043e\u0442\u0438\u0442\u044c"
+    },
+    {
+        "language": "ru",
+        "word": "\u0435\u0434\u0440\u0438\u0442\u044c \u043a\u043e\u043f\u0430\u0442\u044c"
+    },
+    {
+        "language": "ru",
+        "word": "\u0435\u0434\u0440\u0438\u0442\u044c-\u043a\u043e\u043b\u043e\u0442\u0438\u0442\u044c"
+    },
+    {
+        "language": "ru",
+        "word": "\u0435\u0434\u0440\u0438\u0442\u044c-\u043a\u043e\u043f\u0430\u0442\u044c"
     },
     {
         "language": "ru",
@@ -8021,15 +8229,15 @@
     },
     {
         "language": "ru",
+        "word": "\u043a\u0430\u0436\u0434\u044b\u0439 \u0434\u0440\u043e\u0447\u0435\u0442 \u043a\u0430\u043a \u043e\u043d \u0445\u043e\u0447\u0435\u0442"
+    },
+    {
+        "language": "ru",
         "word": "\u043a\u0430\u0436\u0434\u044b\u0439 \u0434\u0440\u043e\u0447\u0438\u0442 \u043a\u0430\u043a \u043e\u043d \u0445\u043e\u0447\u0435\u0442"
     },
     {
         "language": "ru",
         "word": "\u043a\u0430\u043a \u0434\u0432\u0430 \u043f\u0430\u043b\u044c\u0446\u0430 \u043e\u0431\u043e\u0441\u0441\u0430\u0442\u044c"
-    },
-    {
-        "language": "ru",
-        "word": "\u043a\u0443\u0440\u0438\u0442\u0435 \u043c\u043e\u044e \u0442\u0440\u0443\u0431\u043a\u0443"
     },
     {
         "language": "ru",
@@ -8189,7 +8397,15 @@
     },
     {
         "language": "ru",
+        "word": "\u043e\u0442\u043c\u0443\u0434\u043e\u0445\u0430\u0442\u044c"
+    },
+    {
+        "language": "ru",
         "word": "\u043e\u0444\u0438\u0433\u0435\u0442\u044c"
+    },
+    {
+        "language": "ru",
+        "word": "\u043e\u0445\u0440\u0435\u043d\u0435\u0442\u044c"
     },
     {
         "language": "ru",
@@ -8198,6 +8414,10 @@
     {
         "language": "ru",
         "word": "\u043e\u0445\u0443\u0438\u0442\u0435\u043b\u044c\u043d\u043e"
+    },
+    {
+        "language": "ru",
+        "word": "\u043f\u0438\u0437\u0434\u0443"
     },
     {
         "language": "ru",
@@ -8233,6 +8453,14 @@
     },
     {
         "language": "ru",
+        "word": "\u0441\u0443\u0447\u043a\u0430"
+    },
+    {
+        "language": "ru",
+        "word": "\u0441\u0443\u0447\u043a\u0438"
+    },
+    {
+        "language": "ru",
         "word": "\u0441\u0446\u0443\u043a\u0430"
     },
     {
@@ -8241,7 +8469,7 @@
     },
     {
         "language": "ru",
-        "word": "\u0441\u044d\u043a\u0441"
+        "word": "\u0442\u0432\u0430\u0440\u044c"
     },
     {
         "language": "ru",
@@ -8281,7 +8509,7 @@
     },
     {
         "language": "ru",
-        "word": "\u0445\u0443\u0435\u043c \u0433\u0440\u0443\u0448\u0438 \u043e\u043a\u043e\u043b\u0430\u0447\u0438\u0432\u0430\u0442\u044c"
+        "word": "\u0445\u0443\u0435\u043c"
     },
     {
         "language": "ru",
@@ -8309,19 +8537,19 @@
     },
     {
         "language": "ru",
-        "word": "\u0445\u0443\u0439 \u043f\u0438\u043d\u0430\u0442\u044c"
+        "word": "\u0445\u0443\u0439\u043b\u043e"
     },
     {
         "language": "ru",
-        "word": "\u0445\u0443\u0439 \u0441 \u043d\u0435\u0439"
-    },
-    {
-        "language": "ru",
-        "word": "\u0445\u0443\u0439 \u0441 \u043d\u0438\u043c"
+        "word": "\u0445\u0443\u0439\u043d\u0435\u0439 \u0441\u0442\u0440\u0430\u0434\u0430\u0442\u044c"
     },
     {
         "language": "ru",
         "word": "\u0445\u0443\u0439\u043d\u0443\u0442\u044c"
+    },
+    {
+        "language": "ru",
+        "word": "\u0445\u0443\u0439\u043d\u044f"
     },
     {
         "language": "ru",
@@ -8337,15 +8565,19 @@
     },
     {
         "language": "ru",
-        "word": "\u0445\u0443\u0451\u043b\u043e"
+        "word": "\u0448\u043b\u044e\u0445\u0430"
     },
     {
         "language": "ru",
-        "word": "\u0445\u0443\u0451\u043d\u0435\u0439 \u0441\u0442\u0440\u0430\u0434\u0430\u0442\u044c"
+        "word": "\u0448\u043b\u044e\u0445\u0435"
     },
     {
         "language": "ru",
-        "word": "\u0445\u0443\u0451\u043d\u044f"
+        "word": "\u0448\u043b\u044e\u0445\u0438"
+    },
+    {
+        "language": "ru",
+        "word": "\u0451\u0431 \u0432\u0430\u0448\u0443 \u043c\u0430\u0442\u044c"
     },
     {
         "language": "ru",
@@ -8354,6 +8586,14 @@
     {
         "language": "ru",
         "word": "\u0451\u0431\u0430\u0440\u044c"
+    },
+    {
+        "language": "ru",
+        "word": "\u0451\u0431\u043b\u0430"
+    },
+    {
+        "language": "ru",
+        "word": "\u0451\u0431\u043d\u0443\u0442\u044c"
     },
     {
         "language": "sv",
