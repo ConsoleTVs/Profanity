@@ -7561,6 +7561,26 @@
     },
     {
         "language": "ru",
+        "word": "blya"
+    },
+    {
+        "language": "ru",
+        "word": "blyad"
+    },
+    {
+        "language": "ru",
+        "word": "blyad'"
+    },
+    {
+        "language": "ru",
+        "word": "blyat"
+    },
+    {
+        "language": "ru",
+        "word": "blyat'"
+    },
+    {
+        "language": "ru",
         "word": "bychara"
     },
     {
@@ -7573,7 +7593,15 @@
     },
     {
         "language": "ru",
+        "word": "dolboeb"
+    },
+    {
+        "language": "ru",
         "word": "dolboy'eb"
+    },
+    {
+        "language": "ru",
+        "word": "dolboyob"
     },
     {
         "language": "ru",
@@ -7589,11 +7617,55 @@
     },
     {
         "language": "ru",
-        "word": "gol"
+        "word": "ebalom schelkat"
+    },
+    {
+        "language": "ru",
+        "word": "hu'evo"
+    },
+    {
+        "language": "ru",
+        "word": "huevo"
+    },
+    {
+        "language": "ru",
+        "word": "ku'evo"
+    },
+    {
+        "language": "ru",
+        "word": "kuevo"
     },
     {
         "language": "ru",
         "word": "mudack"
+    },
+    {
+        "language": "ru",
+        "word": "mudak"
+    },
+    {
+        "language": "ru",
+        "word": "mudobl'adsksya"
+    },
+    {
+        "language": "ru",
+        "word": "mudoblyadsksya"
+    },
+    {
+        "language": "ru",
+        "word": "nasrat"
+    },
+    {
+        "language": "ru",
+        "word": "nasrat'"
+    },
+    {
+        "language": "ru",
+        "word": "obosrat"
+    },
+    {
+        "language": "ru",
+        "word": "obosrat'"
     },
     {
         "language": "ru",
@@ -7613,6 +7685,10 @@
     },
     {
         "language": "ru",
+        "word": "otebis"
+    },
+    {
+        "language": "ru",
         "word": "otmudohat"
     },
     {
@@ -7622,6 +7698,14 @@
     {
         "language": "ru",
         "word": "otsosi"
+    },
+    {
+        "language": "ru",
+        "word": "otyebis"
+    },
+    {
+        "language": "ru",
+        "word": "padla"
     },
     {
         "language": "ru",
@@ -7637,11 +7721,27 @@
     },
     {
         "language": "ru",
-        "word": "petuh"
+        "word": "pidar gnoinyj"
     },
     {
         "language": "ru",
-        "word": "pidar gnoinyj"
+        "word": "pidaras"
+    },
+    {
+        "language": "ru",
+        "word": "pidor"
+    },
+    {
+        "language": "ru",
+        "word": "piz'det"
+    },
+    {
+        "language": "ru",
+        "word": "piz`dyulina"
+    },
+    {
+        "language": "ru",
+        "word": "pizd'uk"
     },
     {
         "language": "ru",
@@ -7657,7 +7757,11 @@
     },
     {
         "language": "ru",
-        "word": "piz'det"
+        "word": "pizdec"
+    },
+    {
+        "language": "ru",
+        "word": "pizdet"
     },
     {
         "language": "ru",
@@ -7665,31 +7769,51 @@
     },
     {
         "language": "ru",
-        "word": "pizdoi nakryt'sja"
+        "word": "pizdez"
     },
     {
         "language": "ru",
-        "word": "pizd'uk"
+        "word": "pizdoi"
     },
     {
         "language": "ru",
-        "word": "piz`dyulina"
+        "word": "pizdopro'ebina"
     },
     {
         "language": "ru",
-        "word": "podi ku'evo"
+        "word": "pizdoproebina"
     },
     {
         "language": "ru",
-        "word": "poeben"
+        "word": "pizdoproyebina"
     },
     {
         "language": "ru",
-        "word": "po'imat' na konchik"
+        "word": "pizdoproyob"
     },
     {
         "language": "ru",
-        "word": "po'iti posrat"
+        "word": "pizdoproyobina"
+    },
+    {
+        "language": "ru",
+        "word": "pizdu"
+    },
+    {
+        "language": "ru",
+        "word": "pizdulina"
+    },
+    {
+        "language": "ru",
+        "word": "pizdy"
+    },
+    {
+        "language": "ru",
+        "word": "pizdyulina"
+    },
+    {
+        "language": "ru",
+        "word": "po huy"
     },
     {
         "language": "ru",
@@ -7697,11 +7821,27 @@
     },
     {
         "language": "ru",
-        "word": "poluchit pizdy"
+        "word": "po'imat' na konchik"
+    },
+    {
+        "language": "ru",
+        "word": "poeben"
     },
     {
         "language": "ru",
         "word": "pososi moyu konfetku"
+    },
+    {
+        "language": "ru",
+        "word": "posrat"
+    },
+    {
+        "language": "ru",
+        "word": "posrat'"
+    },
+    {
+        "language": "ru",
+        "word": "poyimat na konchik"
     },
     {
         "language": "ru",
@@ -7713,7 +7853,7 @@
     },
     {
         "language": "ru",
-        "word": "promudobl'adsksya pizdopro'ebina"
+        "word": "promudobl'adsksya"
     },
     {
         "language": "ru",
@@ -7741,7 +7881,19 @@
     },
     {
         "language": "ru",
+        "word": "razyebuy"
+    },
+    {
+        "language": "ru",
+        "word": "razyoba"
+    },
+    {
+        "language": "ru",
         "word": "s'ebat'sya"
+    },
+    {
+        "language": "ru",
+        "word": "sebatsya"
     },
     {
         "language": "ru",
@@ -7749,7 +7901,27 @@
     },
     {
         "language": "ru",
-        "word": "styervo"
+        "word": "shluha"
+    },
+    {
+        "language": "ru",
+        "word": "shlukha"
+    },
+    {
+        "language": "ru",
+        "word": "sosi"
+    },
+    {
+        "language": "ru",
+        "word": "srat"
+    },
+    {
+        "language": "ru",
+        "word": "srat'"
+    },
+    {
+        "language": "ru",
+        "word": "sterva"
     },
     {
         "language": "ru",
@@ -7757,11 +7929,15 @@
     },
     {
         "language": "ru",
-        "word": "svodit posrat"
+        "word": "svoloch"
     },
     {
         "language": "ru",
-        "word": "svoloch"
+        "word": "trahat'sya"
+    },
+    {
+        "language": "ru",
+        "word": "trahatsya"
     },
     {
         "language": "ru",
@@ -7769,15 +7945,11 @@
     },
     {
         "language": "ru",
-        "word": "trimandoblydskiy pizdoproyob"
+        "word": "trakhatsya"
     },
     {
         "language": "ru",
-        "word": "ubl'yudok"
-    },
-    {
-        "language": "ru",
-        "word": "uboy"
+        "word": "trimandoblydskiy"
     },
     {
         "language": "ru",
@@ -7785,15 +7957,23 @@
     },
     {
         "language": "ru",
-        "word": "vafl'a"
+        "word": "ubl'yudok"
     },
     {
         "language": "ru",
-        "word": "vafli lovit"
+        "word": "ubludok"
     },
     {
         "language": "ru",
-        "word": "v pizdu"
+        "word": "ublyudok"
+    },
+    {
+        "language": "ru",
+        "word": "uebitsche"
+    },
+    {
+        "language": "ru",
+        "word": "uebitshe"
     },
     {
         "language": "ru",
@@ -7813,7 +7993,19 @@
     },
     {
         "language": "ru",
+        "word": "za'ibat"
+    },
+    {
+        "language": "ru",
+        "word": "zaebat"
+    },
+    {
+        "language": "ru",
         "word": "zaebis"
+    },
+    {
+        "language": "ru",
+        "word": "zaibat"
     },
     {
         "language": "ru",
@@ -7825,7 +8017,23 @@
     },
     {
         "language": "ru",
+        "word": "zalupatsa"
+    },
+    {
+        "language": "ru",
+        "word": "zalupatsya"
+    },
+    {
+        "language": "ru",
+        "word": "zasranec"
+    },
+    {
+        "language": "ru",
         "word": "zasranetc"
+    },
+    {
+        "language": "ru",
+        "word": "zasranez"
     },
     {
         "language": "ru",
@@ -7837,11 +8045,51 @@
     },
     {
         "language": "ru",
-        "word": "\u0431\u0430\u0440\u0434\u0430\u043a"
+        "word": "zloebuchy"
+    },
+    {
+        "language": "ru",
+        "word": "\u0430\u043f\u0435\u0437\u0434\u043e\u043b"
+    },
+    {
+        "language": "ru",
+        "word": "\u0430\u043f\u0435\u0441\u0434\u043e\u043b"
+    },
+    {
+        "language": "ru",
+        "word": "\u0430\u0442\u043c\u0443\u0434\u043e\u0445\u0430\u0442\u044c"
+    },
+    {
+        "language": "ru",
+        "word": "\u0430\u0444\u0438\u0433\u0435\u0442\u044c"
+    },
+    {
+        "language": "ru",
+        "word": "\u0430\u0445\u0440\u0435\u043d\u0435\u0442\u044c"
+    },
+    {
+        "language": "ru",
+        "word": "\u0430\u0445\u0443\u0435\u0442\u044c"
+    },
+    {
+        "language": "ru",
+        "word": "\u0430\u0445\u0443\u0438\u0442\u0435\u043b\u044c\u043d\u043e"
     },
     {
         "language": "ru",
         "word": "\u0431\u0437\u0434\u0451\u043d\u043e\u043a"
+    },
+    {
+        "language": "ru",
+        "word": "\u0431\u043b\u044d\u0434"
+    },
+    {
+        "language": "ru",
+        "word": "\u0431\u043b\u044d\u0442"
+    },
+    {
+        "language": "ru",
+        "word": "\u0431\u043b\u044f"
     },
     {
         "language": "ru",
@@ -7861,15 +8109,15 @@
     },
     {
         "language": "ru",
-        "word": "\u0431\u0443\u0433\u043e\u0440"
-    },
-    {
-        "language": "ru",
-        "word": "\u0432\u043e \u043f\u0438\u0437\u0434\u0443"
+        "word": "\u0431\u043b\u044f\u0442\u044c"
     },
     {
         "language": "ru",
         "word": "\u0432\u0441\u0442\u0430\u0442\u044c \u0440\u0430\u043a\u043e\u043c"
+    },
+    {
+        "language": "ru",
+        "word": "\u0432\u044b\u0435\u0431\u044b\u0432\u0430\u0442\u044c\u0441\u044f"
     },
     {
         "language": "ru",
@@ -7889,10 +8137,6 @@
     },
     {
         "language": "ru",
-        "word": "\u0433\u043e\u043b\u044b\u0439"
-    },
-    {
-        "language": "ru",
         "word": "\u0434\u0430\u0442\u044c \u043f\u0438\u0437\u0434\u044b"
     },
     {
@@ -7905,11 +8149,15 @@
     },
     {
         "language": "ru",
-        "word": "\u0434\u0440\u0443\u0433\u043e\u0439 \u0434\u0440\u0430\u0437\u043d\u0438\u0442\u0441\u044f"
+        "word": "\u0435\u0431 \u0432\u0430\u0448\u0443 \u043c\u0430\u0442\u044c"
     },
     {
         "language": "ru",
-        "word": "\u0451\u0431\u0430\u0440\u044c"
+        "word": "\u0435\u0431 \u0442\u0432\u043e\u044e \u043c\u0430\u0442\u044c"
+    },
+    {
+        "language": "ru",
+        "word": "\u0435\u0431\u0430\u0440\u044c"
     },
     {
         "language": "ru",
@@ -7917,7 +8165,15 @@
     },
     {
         "language": "ru",
+        "word": "\u0435\u0431\u0430\u0442\u044c \u043a\u043e\u043f\u0430\u0442\u044c"
+    },
+    {
+        "language": "ru",
         "word": "\u0435\u0431\u0430\u0442\u044c-\u043a\u043e\u043f\u0430\u0442\u044c"
+    },
+    {
+        "language": "ru",
+        "word": "\u0435\u0431\u0430\u0442\u044c\u0441\u044f"
     },
     {
         "language": "ru",
@@ -7929,7 +8185,23 @@
     },
     {
         "language": "ru",
-        "word": "\u0451\u0431 \u0442\u0432\u043e\u044e \u043c\u0430\u0442\u044c"
+        "word": "\u0435\u0431\u0451\u0442\u0441\u044f"
+    },
+    {
+        "language": "ru",
+        "word": "\u0435\u0434\u0440\u0438\u0442\u044c \u043a\u043e\u043b\u043e\u0442\u0438\u0442\u044c"
+    },
+    {
+        "language": "ru",
+        "word": "\u0435\u0434\u0440\u0438\u0442\u044c \u043a\u043e\u043f\u0430\u0442\u044c"
+    },
+    {
+        "language": "ru",
+        "word": "\u0435\u0434\u0440\u0438\u0442\u044c-\u043a\u043e\u043b\u043e\u0442\u0438\u0442\u044c"
+    },
+    {
+        "language": "ru",
+        "word": "\u0435\u0434\u0440\u0438\u0442\u044c-\u043a\u043e\u043f\u0430\u0442\u044c"
     },
     {
         "language": "ru",
@@ -7949,11 +8221,11 @@
     },
     {
         "language": "ru",
-        "word": "\u043a\u0430\u0436\u0434\u044b\u0439 \u0434\u0440\u043e\u0447\u0438\u0442 \u043a\u0430\u043a \u043e\u043d \u0445\u043e\u0447\u0435\u0442"
+        "word": "\u043a\u0430\u0436\u0434\u044b\u0439 \u0434\u0440\u043e\u0447\u0435\u0442 \u043a\u0430\u043a \u043e\u043d \u0445\u043e\u0447\u0435\u0442"
     },
     {
         "language": "ru",
-        "word": "\u043a\u0430\u043a\u0430\u044f \u0440\u0430\u0437\u043d\u0438\u0446\u0430"
+        "word": "\u043a\u0430\u0436\u0434\u044b\u0439 \u0434\u0440\u043e\u0447\u0438\u0442 \u043a\u0430\u043a \u043e\u043d \u0445\u043e\u0447\u0435\u0442"
     },
     {
         "language": "ru",
@@ -7961,15 +8233,11 @@
     },
     {
         "language": "ru",
-        "word": "\u043a\u0443\u0440\u0438\u0442\u0435 \u043c\u043e\u044e \u0442\u0440\u0443\u0431\u043a\u0443"
-    },
-    {
-        "language": "ru",
         "word": "\u043b\u044b\u0441\u043e\u0433\u043e \u0432 \u043a\u0443\u043b\u0430\u043a\u0435 \u0433\u043e\u043d\u044f\u0442\u044c"
     },
     {
         "language": "ru",
-        "word": "\u043c\u0430\u043b\u043e\u0444\u044f"
+        "word": "\u043b\u044b\u0441\u043e\u0433\u043e \u0433\u043e\u043d\u044f\u0442\u044c"
     },
     {
         "language": "ru",
@@ -7989,23 +8257,15 @@
     },
     {
         "language": "ru",
+        "word": "\u043c\u0443\u0434\u0438\u043b\u0430"
+    },
+    {
+        "language": "ru",
         "word": "\u043c\u0443\u0434\u0438\u043b\u043e"
     },
     {
         "language": "ru",
-        "word": "\u043c\u0443\u0434\u043e\u0437\u043c\u043e\u043d"
-    },
-    {
-        "language": "ru",
-        "word": "\u043d\u0430\u0435\u0431\u0430\u0442\u044c"
-    },
-    {
-        "language": "ru",
-        "word": "\u043d\u0430\u0435\u0431\u0435\u043d\u0438\u0442\u044c\u0441\u044f"
-    },
-    {
-        "language": "ru",
-        "word": "\u043d\u0430\u0435\u0431\u043d\u0443\u0442\u044c\u0441\u044f"
+        "word": "\u043c\u0443\u0434\u043e\u0437\u0432\u043e\u043d"
     },
     {
         "language": "ru",
@@ -8025,7 +8285,43 @@
     },
     {
         "language": "ru",
+        "word": "\u043d\u0430\u0435\u0431\u0430\u0442\u044c"
+    },
+    {
+        "language": "ru",
+        "word": "\u043d\u0430\u0435\u0431\u0435\u043d\u0438\u0442\u044c\u0441\u044f"
+    },
+    {
+        "language": "ru",
+        "word": "\u043d\u0430\u0435\u0431\u043d\u0443\u0442\u044c\u0441\u044f"
+    },
+    {
+        "language": "ru",
+        "word": "\u043d\u0430\u0444\u0438\u0433"
+    },
+    {
+        "language": "ru",
+        "word": "\u043d\u0430\u0445\u0443\u0439"
+    },
+    {
+        "language": "ru",
+        "word": "\u043d\u0430\u0445\u0443\u044e \u0432\u0435\u0440\u0442\u0435\u0442\u044c"
+    },
+    {
+        "language": "ru",
+        "word": "\u043d\u0430\u0445\u0443\u044f"
+    },
+    {
+        "language": "ru",
         "word": "\u043d\u0430\u0445\u0443\u044f\u0447\u0438\u0442\u044c\u0441\u044f"
+    },
+    {
+        "language": "ru",
+        "word": "\u043d\u0435 \u0435\u0431\u0435\u0442"
+    },
+    {
+        "language": "ru",
+        "word": "\u043d\u0435 \u0435\u0431\u0451\u0442"
     },
     {
         "language": "ru",
@@ -8033,7 +8329,23 @@
     },
     {
         "language": "ru",
-        "word": "\u043d\u0435 \u0435\u0431\u0435\u0442"
+        "word": "\u043d\u0435\u0432\u044a\u0435\u0431\u0435\u043d\u043d\u044b\u0439"
+    },
+    {
+        "language": "ru",
+        "word": "\u043d\u0435\u0432\u044c\u0435\u0431\u0435\u043d\u043d\u044b\u0439"
+    },
+    {
+        "language": "ru",
+        "word": "\u043d\u0435\u0435\u0431\u0435\u0442"
+    },
+    {
+        "language": "ru",
+        "word": "\u043d\u0435\u0435\u0431\u0451\u0442"
+    },
+    {
+        "language": "ru",
+        "word": "\u043d\u0438 \u0437\u0430 \u0445\u0443\u0439 \u0441\u043e\u0431\u0430\u0447\u0438\u0439"
     },
     {
         "language": "ru",
@@ -8045,15 +8357,31 @@
     },
     {
         "language": "ru",
-        "word": "\u043e\u0431\u043d\u0430\u0436\u0435\u043d\u043d\u044b\u0439"
+        "word": "\u043d\u0438\u0437\u0430\u0445\u0443\u0439 \u0441\u043e\u0431\u0430\u0447\u0438\u0439"
     },
     {
         "language": "ru",
-        "word": "\u043e\u0431\u043e\u0441\u0441\u0430\u0442\u044c\u0441\u044f \u043c\u043e\u0436\u043d\u043e"
+        "word": "\u043d\u0438\u0437\u0430\u0445\u0443\u0439 \u0441\u043e\u0431\u0430\u0447\u0443"
     },
     {
         "language": "ru",
-        "word": "\u043e\u0434\u0438\u043d \u0435\u0431\u0451\u0442\u0441\u044f"
+        "word": "\u043d\u0438\u0438\u0435\u0431\u0435\u0442"
+    },
+    {
+        "language": "ru",
+        "word": "\u043d\u0438\u0438\u0435\u0431\u0451\u0442"
+    },
+    {
+        "language": "ru",
+        "word": "\u043d\u0438\u0445\u0443\u044f"
+    },
+    {
+        "language": "ru",
+        "word": "\u043e\u0431\u043e\u0441\u0441\u0430\u0442\u044c\u0441\u044f"
+    },
+    {
+        "language": "ru",
+        "word": "\u043e\u043f\u0435\u0437\u0434\u043e\u043b"
     },
     {
         "language": "ru",
@@ -8061,7 +8389,15 @@
     },
     {
         "language": "ru",
+        "word": "\u043e\u0442\u043c\u0443\u0434\u043e\u0445\u0430\u0442\u044c"
+    },
+    {
+        "language": "ru",
         "word": "\u043e\u0444\u0438\u0433\u0435\u0442\u044c"
+    },
+    {
+        "language": "ru",
+        "word": "\u043e\u0445\u0440\u0435\u043d\u0435\u0442\u044c"
     },
     {
         "language": "ru",
@@ -8069,11 +8405,27 @@
     },
     {
         "language": "ru",
-        "word": "\u043e\u0445\u0443\u0439\u0442\u0435\u043b\u044c\u043d\u043e"
+        "word": "\u043e\u0445\u0443\u0438\u0442\u0435\u043b\u044c\u043d\u043e"
     },
     {
         "language": "ru",
-        "word": "\u043f\u043e\u043b\u043e\u0432\u043e\u0435 \u0441\u043d\u043e\u0448\u0435\u043d\u0438\u0435"
+        "word": "\u043f\u0438\u0434\u0430\u0440"
+    },
+    {
+        "language": "ru",
+        "word": "\u043f\u0438\u0434\u0430\u0440\u0430\u0441"
+    },
+    {
+        "language": "ru",
+        "word": "\u043f\u0438\u0434\u0430\u0440\u0430\u0441\u0438\u043d\u0430"
+    },
+    {
+        "language": "ru",
+        "word": "\u043f\u0438\u0434\u043e\u0440"
+    },
+    {
+        "language": "ru",
+        "word": "\u043f\u0438\u0437\u0434\u0443"
     },
     {
         "language": "ru",
@@ -8082,6 +8434,10 @@
     {
         "language": "ru",
         "word": "\u0441\u0438\u0441\u043a\u0438"
+    },
+    {
+        "language": "ru",
+        "word": "\u0441\u0438\u0441\u044c\u043a\u0438"
     },
     {
         "language": "ru",
@@ -8097,19 +8453,35 @@
     },
     {
         "language": "ru",
+        "word": "\u0441\u0443\u0447\u043a\u0430"
+    },
+    {
+        "language": "ru",
+        "word": "\u0441\u0443\u0447\u043a\u0438"
+    },
+    {
+        "language": "ru",
+        "word": "\u0441\u0446\u0443\u043a\u0430"
+    },
+    {
+        "language": "ru",
+        "word": "\u0441\u0446\u0443\u043a\u0438"
+    },
+    {
+        "language": "ru",
+        "word": "\u0442\u0432\u0430\u0440\u044c"
+    },
+    {
+        "language": "ru",
         "word": "\u0442\u0440\u0430x\u0430\u0442\u044c"
     },
     {
         "language": "ru",
-        "word": "\u0442\u044b \u043c\u043d\u0435 \u0432\u0430\u043d\u044c\u043a\u0443 \u043d\u0435 \u0432\u0430\u043b\u044f\u0439"
+        "word": "\u0444\u0430\u043f\u0430\u0442\u044c"
     },
     {
         "language": "ru",
         "word": "\u0444\u0438\u0433\u0430"
-    },
-    {
-        "language": "ru",
-        "word": "\u0445\u0430\u043f\u0430\u0442\u044c"
     },
     {
         "language": "ru",
@@ -8121,27 +8493,27 @@
     },
     {
         "language": "ru",
-        "word": "\u0445\u043e\u0445\u043e\u043b"
-    },
-    {
-        "language": "ru",
         "word": "\u0445\u0440\u0435\u043d"
     },
     {
         "language": "ru",
-        "word": "\u0445\u0443\u0451\u0432\u043e"
+        "word": "\u0445\u0443\u0435\u0432\u043e"
     },
     {
         "language": "ru",
-        "word": "\u0445\u0443\u0451\u0432\u044b\u0439"
+        "word": "\u0445\u0443\u0435\u0432\u044b\u0439"
     },
     {
         "language": "ru",
-        "word": "\u0445\u0443\u0435\u043c \u0433\u0440\u0443\u0448\u0438 \u043e\u043a\u043e\u043b\u0430\u0447\u0438\u0432\u0430\u0442\u044c"
+        "word": "\u0445\u0443\u0435\u043c"
     },
     {
         "language": "ru",
         "word": "\u0445\u0443\u0435\u043f\u043b\u0435\u0442"
+    },
+    {
+        "language": "ru",
+        "word": "\u0445\u0443\u0435\u043f\u043b\u0451\u0442"
     },
     {
         "language": "ru",
@@ -8161,11 +8533,63 @@
     },
     {
         "language": "ru",
+        "word": "\u0445\u0443\u0439\u043b\u043e"
+    },
+    {
+        "language": "ru",
+        "word": "\u0445\u0443\u0439\u043d\u0435\u0439 \u0441\u0442\u0440\u0430\u0434\u0430\u0442\u044c"
+    },
+    {
+        "language": "ru",
         "word": "\u0445\u0443\u0439\u043d\u0443\u0442\u044c"
     },
     {
         "language": "ru",
-        "word": "\u0445\u0443\u0439 \u043f\u0438\u043d\u0430\u0442\u044c"
+        "word": "\u0445\u0443\u0439\u043d\u044f"
+    },
+    {
+        "language": "ru",
+        "word": "\u0445\u0443\u044f"
+    },
+    {
+        "language": "ru",
+        "word": "\u0445\u0443\u0451\u0432\u043e"
+    },
+    {
+        "language": "ru",
+        "word": "\u0445\u0443\u0451\u0432\u044b\u0439"
+    },
+    {
+        "language": "ru",
+        "word": "\u0448\u043b\u044e\u0445\u0430"
+    },
+    {
+        "language": "ru",
+        "word": "\u0448\u043b\u044e\u0445\u0435"
+    },
+    {
+        "language": "ru",
+        "word": "\u0448\u043b\u044e\u0445\u0438"
+    },
+    {
+        "language": "ru",
+        "word": "\u0451\u0431 \u0432\u0430\u0448\u0443 \u043c\u0430\u0442\u044c"
+    },
+    {
+        "language": "ru",
+        "word": "\u0451\u0431 \u0442\u0432\u043e\u044e \u043c\u0430\u0442\u044c"
+    },
+    {
+        "language": "ru",
+        "word": "\u0451\u0431\u0430\u0440\u044c"
+    },
+    {
+        "language": "ru",
+        "word": "\u0451\u0431\u043b\u0430"
+    },
+    {
+        "language": "ru",
+        "word": "\u0451\u0431\u043d\u0443\u0442\u044c"
     },
     {
         "language": "sv",
@@ -9042,6 +9466,30 @@
     {
         "language": "tr",
         "word": "yaraktan"
+    },
+    {
+        "language": "vi",
+        "word": "c\u1eb7c"
+    },
+    {
+        "language": "vi",
+        "word": "l\u1ed3n"
+    },
+    {
+        "language": "vi",
+        "word": "n\u1ee9ng"
+    },
+    {
+        "language": "vi",
+        "word": "\u0111\u1ee5"
+    },
+    {
+        "language": "vi",
+        "word": "\u0111\u1ecbt"
+    },
+    {
+        "language": "vi",
+        "word": "\u0111\u00e9o"
     },
     {
         "language": "zh",
