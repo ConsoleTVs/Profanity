@@ -58,6 +58,9 @@ Alias (optional):
 $words = 'My bad word bitch';
 $clean_words = \ConsoleTVs\Profanity\Builder::blocker($words)->filter();
 // My bad word *****
+
+// Filter words only by English and German bad words.
+$clean_words = \ConsoleTVs\Profanity\Builder::blocker($words, languages: ['en', 'de'])->filter();
 ```
 
 #### Laravel
@@ -93,11 +96,13 @@ class HomeController extends Controller
 
 #### Constructor
 
--   blocker($text, $blocker = '****')
+-   blocker($text, $blocker = '****', $languages = [])
 
     Setup the text and the blocker to use.
 
     *note:* The blocker defaults to ```****```
+
+    *note:* Pass language codes to reduce the list of bad words that are taken into account.  
 
 #### Class Methods
 

@@ -23,19 +23,25 @@ class Blocker
     public $text;
     public $strict = false;
     public $strictClean = true;
+    public $languages;
 
     /**
      * Setup the Profanity filter.
      *
      * @param string $text
+     * @param array  $languages Language codes of the bad words that should be checked against.
+     *                          Keep empty to check against all words.
+     *                          Example: Passing ['en', 'de'] means that text is only checked against
+     *                          English and German words from the dictionary.
      *
      * @return void
      */
-    public function __construct($text, $blocker)
+    public function __construct($text, $blocker, $languages = [])
     {
         $this->text = $text;
         $this->blocker = $blocker;
         $this->dictionary = json_decode(file_get_contents(__DIR__.'/../Dictionaries/Default.json'), true);
+        $this->languages = $languages;
     }
 
     /**
@@ -125,7 +131,13 @@ class Blocker
      */
     public function badWords()
     {
-        return collect($this->dictionary)->filter(function ($value) {
+        $filterLanguage = is_array($this->languages) && count($this->languages) > 0;
+
+        return collect($this->dictionary)->filter(function ($value) use ($filterLanguage) {
+            if ($filterLanguage && !in_array($value['language'], $this->languages, true)) {
+                return false;
+            }
+
             $matches = [];
             if ($this->strict) {
                 return preg_match('/'.$value['word'].'/iu', $this->text, $matches, PREG_UNMATCHED_AS_NULL);
@@ -157,6 +169,7 @@ class Blocker
                 $text = preg_replace("/\b".$word."\b/iu", $this->blockWord($word), $text);
             }
         }
+
         return $text;
     }
 
