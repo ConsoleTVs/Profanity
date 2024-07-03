@@ -34,6 +34,6 @@ class Builder
      */
     public static function blocker($text, $blocker = '****', $languages = [])
     {
-        return new Blocker($text, $blocker);
+        return new Blocker($text, $blocker, $languages);
     }
 }
