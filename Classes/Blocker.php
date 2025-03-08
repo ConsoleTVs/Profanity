@@ -144,7 +144,7 @@ class Blocker
             }
             $pattern = "/\b{$value['word']}\b/iu";
 
-            return preg_match($pattern, $this->text, $matches, PREG_UNMATCHED_AS_NULL);
+            return preg_match($pattern, $this->text ?? '', $matches, PREG_UNMATCHED_AS_NULL);
         })->map(function ($value) {
             return [
                 'language' => $value['language'],
