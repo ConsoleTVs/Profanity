@@ -139,12 +139,8 @@ class Blocker
             }
 
             $matches = [];
-            if ($this->strict) {
-                return preg_match('/'.$value['word'].'/iu', $this->text, $matches, PREG_UNMATCHED_AS_NULL);
-            }
-            $pattern = "/\b{$value['word']}\b/iu";
 
-            return preg_match($pattern, $this->text, $matches, PREG_UNMATCHED_AS_NULL);
+            return preg_match($this->wordPattern($value['word']), $this->text, $matches, PREG_UNMATCHED_AS_NULL);
         })->map(function ($value) {
             return [
                 'language' => $value['language'],
@@ -163,14 +159,24 @@ class Blocker
         $bad_words = collect($this->badWords())->pluck('word')->toArray();
         $text = $this->text;
         foreach ($bad_words as $word) {
-            if ($this->strict) {
-                $text = preg_replace('/'.$word.'/iu', $this->blockWord($word), $text);
-            } else {
-                $text = preg_replace("/\b".$word."\b/iu", $this->blockWord($word), $text);
-            }
+            $text = preg_replace($this->wordPattern($word), $this->blockWord($word), $text);
         }
 
         return $text;
+    }
+
+    /**
+     * Returns the regular expression that matches the given word literally.
+     *
+     * @param string $word
+     *
+     * @return string
+     */
+    private function wordPattern($word)
+    {
+        $word = preg_quote($word, '/');
+
+        return $this->strict ? "/{$word}/iu" : "/\b{$word}\b/iu";
     }
 
     /**
