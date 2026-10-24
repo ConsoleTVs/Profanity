@@ -38,7 +38,7 @@ class Blocker
      */
     public function __construct($text, $blocker, $languages = [])
     {
-        $this->text = $text;
+        $this->text = (string) $text;
         $this->blocker = $blocker;
         $this->dictionary = json_decode(file_get_contents(__DIR__.'/../Dictionaries/Default.json'), true);
         $this->languages = $languages;
@@ -53,7 +53,7 @@ class Blocker
      */
     public function text($text)
     {
-        $this->text = $text;
+        $this->text = (string) $text;
 
         return $this;
     }
