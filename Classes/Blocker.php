@@ -26,6 +26,13 @@ class Blocker
     public $languages;
 
     /**
+     * The decoded default dictionary, shared between all instances so the file is only read once.
+     *
+     * @var array|null
+     */
+    protected static $defaultDictionary;
+
+    /**
      * Setup the Profanity filter.
      *
      * @param string $text
@@ -40,7 +47,10 @@ class Blocker
     {
         $this->text = $text;
         $this->blocker = $blocker;
-        $this->dictionary = json_decode(file_get_contents(__DIR__.'/../Dictionaries/Default.json'), true);
+        if (static::$defaultDictionary === null) {
+            static::$defaultDictionary = json_decode(file_get_contents(__DIR__.'/../Dictionaries/Default.json'), true);
+        }
+        $this->dictionary = static::$defaultDictionary;
         $this->languages = $languages;
     }
 
